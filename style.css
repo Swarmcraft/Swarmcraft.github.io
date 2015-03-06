@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+article, aside, footer, header, main, nav, section {
+  display: block;
+}
+
+html, body, h1, h2, h3, ul, li, a, p, 
+article, aside, footer, header, main, nav, section {
+  padding: 1px;
+  margin: 0;
+}
+
+body, header, nav,{
+  display: block;
+  }
+  
+.banner{
+  background-color: EDB940;
+  color: black;
+  padding: 10px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: ridge;
+  border-color: EDB940;
+  }
+  
+body{
+  background-color: black;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial;
+  font-size: 20px;
+  }
+  
+nav{
+  background-color: D2B061;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 2px;
+  border-style: ridge;
+  border-color: D2B061;
+}
+
+li a{
+  color: black;
+}
+
+li{
+ display: inline;
+ margin-left: 0.5px;
+ margin-right: 0.5px;
+ font-size: 18px;
+ font-variant: small-caps
+ }
+ 
+main{
+  width: 700px;
+  background-color: 89806A;
+  margin-top: 15px;
+  border-style: ridge;
+  border-color: 89806A;
+  float: left;
+  padding: 5px;
+  text-align: center;
+}
+
+section{
+  background-color: E4D9BF;
+  padding: 5px;
+  
+}
+
+header{
+  background-color: 958969;
+  border-style: ridge;
+  border-color: 89806A;
+  margin-bottom: 5px;
+}
+
+
+
+
